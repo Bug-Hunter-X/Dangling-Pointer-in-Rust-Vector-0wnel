@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: using a raw pointer to modify a vector after it has been moved or dropped. The code in `bug.rs` shows how this can lead to undefined behavior, such as a segmentation fault or data corruption.  The solution in `bugSolution.rs` provides a safer alternative using proper memory management.
